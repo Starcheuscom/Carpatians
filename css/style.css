@@ -1,0 +1,215 @@
+/* portfolio */
+
+.port-title {
+	width: 520px;
+	margin: 60px auto 40px auto;
+	text-align: center;
+}
+
+.port-h1 {
+	color: #000;
+	font-family: Raleway;
+	font-size: 48px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.port-hr {
+    border: none; /* Убираем границу */
+    background-color: #f4c60b; /* Цвет линии */
+    color: #f4c60b; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+    width: 275px;
+   }
+
+.port-loremipsum {
+   	color: #000;
+	font-family: "Crimson Text";
+	font-size: 24px;
+	font-weight: 400;
+	margin: 37px 0 0 0;
+  }
+
+.port-category {
+  	/* width: 1000px; */
+  	margin: 50px auto;
+}
+  
+.port-category-ul {
+	/* display: inline-block; */
+	text-align: center;
+	font-size: 0;
+}
+
+.port-category-li {
+	color: #000;
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 50px;
+	border: 1px solid #f4c60b;
+	border-right: 0;
+	display: inline-block;
+	padding: 0 24px;
+	margin: 0;
+}
+
+.port-category-li:last-child {
+	border: 1px solid #f4c60b;
+}
+
+.port-img {
+	width: 100%;
+	margin: 60px 0 0 0;
+}
+
+.port-img-ul {
+	font-size: 0;
+}
+
+.port-img-li {
+	position: relative;
+	width: 25%;
+	display: inline-block;
+	margin: 0;
+}
+
+.port-btn {
+	text-align: center;
+	margin: 60px 0 60px 0;
+}
+
+.port-button {
+	border: 3px solid #f4c60b;
+	color: #000;
+	font-family: Raleway;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 14px 30px;
+	background: #FFF;
+}
+
+/* contacts */
+
+.contact {
+	background: url(../img/contact-us.png);
+}
+
+.cont-block {
+	padding: 40px 0 60px 0;
+	text-align: center;
+}
+
+.white {
+	color: #fff;
+}
+
+/* .cont-form {
+	margin: 40px auto 60px auto;
+	text-align: center;
+} */
+
+.contact-form-id {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.contact-form-txt {
+	border: 3px solid #fff;
+	background: transparent;
+	color: #fff;
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 5px;
+	width: 49%;
+	float: left;
+	margin-left: 2%;
+	box-sizing: border-box;
+	
+}
+
+.contact-form-txt:first-child {
+	margin: 0;
+	}
+
+
+
+.contact-form-id-line1 {
+	margin: 10px 0;
+}
+
+.contact-form-id-line2 {
+	
+}
+
+.contact-form-comm {
+	border: 3px solid #fff;
+	color: #fff;
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 220px;
+	width: 100%;
+	background: transparent;
+	box-sizing: border-box;
+	margin-top: 2%;
+}
+
+
+
+.cont-button {
+	background-color: #f4c60b;
+	color: #000;
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 10px 25px;
+	border: 0;
+	float: left;
+}
+
+
+/* footer  */
+.footer {
+	background: #303030;
+	text-align: center;
+	padding: 20px;
+}
+
+.footer-subtitle {
+	color: #fff;
+	font-family: "Crimson Text";
+	font-size: 12px;
+	font-weight: ;
+	font-style: italic;
+}
+
+.footer-logo-img {
+	width: 154px;
+	height: 67px;
+}
+
+.foot-social {
+	display: inline-block;
+	margin: 20px;
+}
+
+
+.fsi {
+	width: auto;
+	height: 17px;
+	margin: 5px;
+}
+
+.copywright {
+	color: #fff;
+	font-family: Raleway;
+	font-size: 12px;
+	font-weight: 300;
+}
